@@ -13,7 +13,7 @@ Do
     ' Fetch JSON from The Cat API
 	Set http = CreateObject("MSXML2.XMLHTTP")
 	http.Open "GET", "https://api.thecatapi.com/v1/images/search", False
-	http.setRequestHeader "x-api-key", "live_UVrCOx3MMUGASRzy1gI7jRDiniAare8XgarVHZ2HgPZ44QDSSHSmcOvc1WnDUw3C"
+	http.setRequestHeader "x-api-key", "YOURAPIKEYHERE"
 	http.Send
 
 
@@ -57,3 +57,4 @@ Do
 Loop
 
 MsgBox "Cat wallpaper loop stopped.", vbInformation
+
